@@ -36,6 +36,36 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/studentdb
 npm run dev
 ```
 
+## Screenshots
+
+### Create Student
+![Create Student](images/CreateStudents.png)
+*Create a student with name, email, age, and course.*
+
+### Get Students
+![Get Students](images/GetStudents.png)
+*List students with pagination and filtering.*
+
+### Get Student By ID
+![Get Student By ID](images/GetStudentByID.png)
+*Fetch a single student by ID.*
+
+### Update Student
+![Update Student](images/UpdateStudent.png)
+*Update existing student details.*
+
+### Delete Student
+![Delete Student](images/deletestudent.png)
+*Delete a student record successfully.*
+
+### Server Running
+![Server Running](images/serverrunning.png)
+*Server started successfully after MongoDB connection.*
+
+### Database Schema
+![Database Schema](images/databaseschema.png)
+*Student schema fields and types.*
+
 ## API Endpoints
 
 - `POST /students` - Create a student
